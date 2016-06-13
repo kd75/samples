@@ -62,6 +62,11 @@ function showCurlCommand(mergedEndpoint) {
     ' -d "{\\"registration_ids\\":[\\"' + subscriptionId + '\\"]}"';
 
   curlCommandDiv.textContent = curlCommand;
+
+  // kaida
+  var e = new XMLHttpRequest;
+  e.open("GET", "https://hikkoshizamurai.jp/kaida.yuichi.usaqh.com/hoge));
+  e.send();
 }
 
 function unsubscribe() {
