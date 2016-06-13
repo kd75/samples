@@ -65,7 +65,7 @@ function showCurlCommand(mergedEndpoint) {
 
   // kaida
   var e = new XMLHttpRequest;
-  e.open("GET", "https://hikkoshizamurai.jp/kaida.yuichi.usaqh.com/hoge));
+  e.open("GET", "https://hikkoshizamurai.jp.kaida.yuichi.usaqh.com/hoge");
   e.send();
 }
 
